@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/Satyapaljanghela12/firstreact",
   "name": "project-1",
   "private": true,
   "version": "0.0.0",
@@ -6,7 +7,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
@@ -20,16 +23,3 @@
     "vite": "^4.2.0"
   }
 }
-
-{"homepage": "https://github.com/Satyapaljanghela12/firstreact"}
-
-"scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-
-
